@@ -1,0 +1,18 @@
+Pokemon DB site voorbeeld met paldean fates.
+Naam pokemon kaart png = PaFa-(nmr kaart)
+Website van fotos = https://images.pokemoncard.io/images/sv4pt5/sv4pt5-41.png
+
+https://pokemoncard.io/card-database/?&setname=Paldean%20Fates
+
+DB PokemonTcg
+
+Tables = Set, Energy, SoortKaart en Kaart 
+
+Set
+	SetId, SetNaam
+Energy
+	EnergyId, EnergyNaam
+Soortkaart
+	SoortKaartId, SoortKaartNaam
+Kaart
+	KaartId, Set (SetId), KaartNaam, FotoNaam, Energy (EnergyId), SoortKaart (SoortKaartId), InCollectie (Boolean) 
